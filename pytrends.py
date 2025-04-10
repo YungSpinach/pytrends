@@ -1,5 +1,6 @@
-import pandas as pd
-from pytrends.request import TrendReq
+import pandas as pd # type: ignore
+import pytrends
+from pytrends.request import TrendReq # type: ignore
 
 # Initialize pytrends
 pytrends = TrendReq(hl='en-GB', tz=0)
